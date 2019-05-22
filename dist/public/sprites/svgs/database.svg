@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg4205" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="64" width="64" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 64 64.000001">
+ <g id="layer1" transform="translate(-23.056 -898.02)">
+  <path id="path5020" d="m55.056 930.02-32 16 32 16 32-16-32-16z" style="fill-opacity:.0039216"/>
+  <g id="g34573" transform="translate(5.7946 -5.2265)">
+   <path id="path26926" style="stroke-linejoin:round;stroke-dashoffset:7.0362;stroke:#4f4f4f;stroke-width:2.8871;fill:#666" d="m60.95 949.17c0.000007 3.1549-5.2331 5.7125-11.688 5.7125-6.4554 0-11.688-2.5576-11.688-5.7125v-23.115c-0.000007-3.1549 5.2331-5.7125 11.688-5.7125 6.4554 0 11.688 2.5576 11.688 5.7125z"/>
+   <path id="path26884" d="m60.95 949.17c0.000007 3.1549-5.2331 5.7125-11.688 5.7125-6.4554 0-11.688-2.5576-11.688-5.7125v-23.115c-0.000007-3.1549 5.2331-5.7125 11.688-5.7125 6.4554 0 11.688 2.5576 11.688 5.7125z" style="fill:#f9e3ff"/>
+   <ellipse id="path26868" style="fill:#fff;fill-opacity:.55556" rx="11.688" ry="5.7125" cy="926.06" cx="49.262"/>
+   <path id="ellipse26928" d="m61.314 941.2c0.000007 3.2532-5.3962 5.8905-12.053 5.8905-6.6565 0-12.053-2.6372-12.053-5.8905" style="opacity:0.517;stroke-linejoin:round;stroke-dashoffset:7.0362;stroke:#4f4f4f;stroke-width:.17901;fill:none"/>
+   <path id="path26931" style="opacity:0.517;stroke-linejoin:round;stroke-dashoffset:7.0362;stroke:#4f4f4f;stroke-width:.17901;fill:none" d="m61.314 933.5c0.000007 3.2532-5.3962 5.8905-12.053 5.8905-6.6565 0-12.053-2.6372-12.053-5.8905"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,315 @@
+#draw-mode{
+  position: absolute;
+  width: 86px;
+  padding: 0px 5px;
+  height: 25px;
+  line-height: 15px;
+  top: 1px;
+  left: 1px;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  box-shadow: inset 0px 0px 5px #aaa;
+}
+
+#unit-selector{
+  position: absolute;
+  width: 111px;
+  height: 51px;
+  line-height: 15px;
+  top: 1px;
+  left: 88px;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  padding: 0 5px;
+  font-family: 'Share Tech Mono', monospace;
+  box-shadow: inset 0px 0px 5px #aaa;
+}
+
+#unit-key{
+  padding: 0 5px;
+  position: absolute;
+  width: 119px;
+  height: 23px;
+  line-height: 15px;
+  top: 1px;
+  left: 200px;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+  #unit-key-input{
+    display: inline;
+    padding: 0 5px;
+    position: relative;
+    width: 75px;
+    height: 23px;
+    line-height: 15px;
+    text-align: center;
+    top: 0px;
+    float: right;
+    border: none;
+    background: none;
+    color: #444;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  #unit-key-label{
+    display: inline;
+    padding: 0 5px;
+    position: relative;
+    width: 32px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    float: left;
+    border: none;
+    background: none;
+    color: #444;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+  }
+
+}
+
+#unit-url{
+  padding: 0 5px;
+  position: absolute;
+  width: 119px;
+  height: 23px;
+  line-height: 15px;
+  top: 27px;
+  left: 200px;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+  #unit-url-input{
+    display: inline;
+    padding: 0 5px;
+    position: relative;
+    width: 75px;
+    height: 23px;
+    line-height: 15px;
+    text-align: center;
+    top: 0px;
+    float: right;
+    border: none;
+    background: none;
+    color: #444;
+    font-family: 'Share Tech Mono', monospace;
+
+  }
+
+  #unit-url-label{
+    display: inline;
+    padding: 0 5px;
+    position: relative;
+    width: 32px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    float: left;
+    border: none;
+    background: none;
+    color: #444;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+  }
+}
+
+#copy-btn{
+  position: absolute;
+  width: 52px;
+  height: 25px;
+  line-height: 10px;
+  top: 1px;
+  left: 583px;
+  border: 1px solid #666;
+  background: #e570e7;
+  color: #444;
+  text-align: center;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #444;
+  transition: 0.3s ease all;
+  cursor: pointer;
+  &:hover{
+    background: lighten(#e570e7, 10%);
+  }
+  &:active{
+    background: #e570e7;
+  }
+}
+
+#paste-btn{
+  position: absolute;
+  width: 52px;
+  height: 25px;
+  line-height: 10px;
+  top: 27px;
+  left: 583px;
+  border: 1px solid #666;
+  background: #63b6db;
+  color: #444;
+  text-align: center;
+  z-index: 100;
+  border-radius: 1px;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #444;
+  transition: 0.3s ease all;
+  cursor: pointer;
+  &:hover{
+    background: lighten(#63b6db, 10%);
+  }
+  &:active{
+    background: #63b6db;
+  }
+}
+
+#export-pic-btn{
+  position: absolute;
+  width: 50px;
+  height: 51px;
+  line-height: 10px;
+  top: 1px;
+  left: 636px;
+  border: 1px solid #666;
+  background: #8fc800;
+  color: #444;
+  text-align: center;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #444;
+  transition: 0.3s ease all;
+  cursor: pointer;
+  &:hover{
+    background: lighten(#8fc800, 10%);
+  }
+  &:active{
+    background: #8fc800;
+  }
+}
+
+
+#json-field{
+  position: absolute;
+  padding: 0 5px;
+  width: 250px;
+  height: 51px;
+  font-size: 10px;
+  line-height: 16px;
+  top: 1px;
+  left: 332px;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+}
+
+/*
+#connector-color{
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  line-height: 15px;
+  top: 27px;
+  left: 57px;
+  text-align: center;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+}
+*/
+
+#connector-color{
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  line-height: 15px;
+  top: 27px;
+  left: 25px;
+  text-align: center;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+}
+
+/*
+#connector-preview{
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  line-height: 15px;
+  top: 27px;
+  left: 1px;
+  text-align: center;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  z-index: 100;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+}
+*/
+
+#connector-preview{
+  display: none;
+}
+
+/*
+#connector-width{
+  position: absolute;
+  width: 29px;
+  height: 25px;
+  line-height: 15px;
+  top: 27px;
+  left: 27px;
+  text-align: center;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+}
+*/
+
+#connector-width{
+  position: absolute;
+  width: 23px;
+  height: 25px;
+  line-height: 15px;
+  top: 27px;
+  left: 1px;
+  text-align: center;
+  border: 1px solid #666;
+  background: #fafafa;
+  color: #444;
+  z-index: 100;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 5px #aaa;
+}

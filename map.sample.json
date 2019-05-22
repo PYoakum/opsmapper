@@ -1,0 +1,115 @@
+{
+  "gid": "123",
+  "grid": {
+    "settings": {
+      "canvasWidth": 1024,
+      "canvasHeight": 512,
+      "tileWidth": 64,
+      "tileLength": 32,
+      "layerHeight": 32,
+      "boardHeight": 10,
+      "cursorOffsetX": 5,
+      "cursorOffsetY": -11,
+      "originX": 8,
+      "originY": 3,
+      "originZ": 0,
+      "width": 15,
+      "length": 15,
+      "material": "default",
+      "materialIndex": 1,
+      "surface": "default",
+      "surfaceIndex": 0,
+      "background" : "default",
+      "backgroundIndex":2
+    },
+    "tileSet": {
+      "default": {
+        "palette": [
+          "#ff6600",
+          "#ff0000",
+          "#444444"
+        ]
+      }
+    },
+    "units": [
+      {
+        "x": 0,
+        "y": 0,
+        "texture": "firewall",
+        "key": "test",
+        "cmd": "test",
+        "color": "#fff"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "texture": "wireless",
+        "key": "test",
+        "cmd": "test",
+        "color": "#fff"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "texture": "workstation",
+        "key": "test",
+        "cmd": "test",
+        "color": "#fff"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "texture": "server",
+        "key": "test",
+        "cmd": "test",
+        "color": "#fff"
+      }
+    ],
+    "connectors": [
+      {
+        "coord": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 4
+          },
+          {
+            "x": 0,
+            "y": 4
+          },
+          {
+            "x": 4,
+            "y": 4
+          }
+        ],
+        "color": "#00ff00",
+        "width": 5
+      },
+      {
+        "coord": [
+          {
+            "x": 4,
+            "y": 4
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "color": "#ff00ff",
+        "width": 5
+      }
+    ]
+  }
+}
