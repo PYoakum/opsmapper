@@ -23,9 +23,9 @@ module.exports = {
         "tileSet" : {
             "default" : {
                 "palette" : [
-                  "#ff6600",
-                  "#ff0000",
-                  "#444444"
+                  "#038a9a",
+                  "#005c67",
+                  "#ffcdad"
                 ]
             }
         },

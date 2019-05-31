@@ -1,18 +1,18 @@
 module.exports = {
-    "gid" : "10x10",
+    "gid" : "5x5",
     "grid" : {
         "settings" : {
             "tileWidth" : 64,
             "tileLength" : 32,
             "layerHeight" : 8,
             "boardHeight" : 10,
-            "cursorOffsetX" : 3,
-            "cursorOffsetY" : -9,
-            "originX" : 6,
+            "cursorOffsetX" : 1,
+            "cursorOffsetY" : -7,
+            "originX" : 4,
             "originY" : 3,
             "originZ" : 0,
-            "width" : 10,
-            "length" : 10,
+            "width" : 5,
+            "length" : 5,
             "material" : "default",
             "materialIndex" : 1,
             "surface" : "default",
@@ -23,9 +23,9 @@ module.exports = {
         "tileSet" : {
             "default" : {
                 "palette" : [
-                  "#ff6600",
-                  "#ff0000",
-                  "#444444"
+                  "#038a9a",
+                  "#005c67",
+                  "#ffcdad"
                 ]
             }
         },

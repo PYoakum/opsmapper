@@ -6,7 +6,9 @@ const five_by_five 					= require('./maps/5x5.js');
 const ten_by_ten 						= require('./maps/10x10.js');
 const fifteen_by_fifteen 		= require('./maps/15x15.js');
 const bold									= require('./maps/bold-15x15.js');
-const blue									= require('./maps/blue-15x15.js');
+const lgBlue								= require('./maps/blue-15x15.js');
+const medBlue								= require('./maps/blue-10x10.js');
+const smBlue								= require('./maps/blue-5x5.js');
 const landmass 							= require('./maps/landmass-15x15.js');
 const boldFifteen_by_fifteen = require('./maps/bold-15x15.js');
 
@@ -24,8 +26,12 @@ module.exports = {
 				res.json(fifteen_by_fifteen)
 			case 'bold':
 				res.json(bold)
-			case 'blue':
-				res.json(blue)
+			case 'blue5x5':
+				res.json(smBlue)
+			case 'blue10x10':
+				res.json(medBlue)
+			case 'blue15x15':
+				res.json(lgBlue)
 			case 'landmass':
 				res.json(landmass)
 			default:

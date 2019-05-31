@@ -1,6 +1,12 @@
 const dns = require('dns');
-const { Resolver } = require('dns');
-const resolver = new Resolver();
+const request = require('request');
+const url = require('url');
+var { Resolver } = require('dns');
+var resolver = new Resolver();
+
+var defaultHeaders = {
+
+}
 
 module.exports = {
 
@@ -54,10 +60,22 @@ module.exports = {
           }
         })
 
+      } else {
+
+        res.json({
+          'color' 		: '#ff0066',
+          'msg' 			: '[ ERR! ]',
+          'data' 			: String(err),
+          'specs' 		: {
+            'color' 		: '#ffffff',
+            'hostname' 	: String(key)
+          }
+        })
+
       }
 
     })
 
   }
-  
+
 }

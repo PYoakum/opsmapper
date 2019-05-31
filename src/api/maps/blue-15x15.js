@@ -27,7 +27,7 @@ module.exports = {
                 "palette" : [
                     "#038a9a",
                     "#005c67",
-                    "#444444"
+                    "#ffcdad"
                 ]
             }
         },
