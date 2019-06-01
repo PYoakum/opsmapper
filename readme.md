@@ -22,5 +22,5 @@ webpack
 npm run build-css
 
 // start the app in dev-mode
-npm start-dev
+npm run start-dev
 ```
