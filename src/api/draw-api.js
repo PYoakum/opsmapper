@@ -1,15 +1,15 @@
-const uuid 									= require('uuid/v4');
-const fs 										= require('fs');
-const url 									= require('url');
-const defaultMap						= require('./maps/default.js');
-const five_by_five 					= require('./maps/5x5.js');
-const ten_by_ten 						= require('./maps/10x10.js');
-const fifteen_by_fifteen 		= require('./maps/15x15.js');
-const bold									= require('./maps/bold-15x15.js');
-const lgBlue								= require('./maps/blue-15x15.js');
-const medBlue								= require('./maps/blue-10x10.js');
-const smBlue								= require('./maps/blue-5x5.js');
-const landmass 							= require('./maps/landmass-15x15.js');
+const uuid = require('uuid/v4');
+const fs = require('fs');
+const url = require('url');
+const defaultMap = require('./maps/default.js');
+const five_by_five = require('./maps/5x5.js');
+const ten_by_ten = require('./maps/10x10.js');
+const fifteen_by_fifteen = require('./maps/15x15.js');
+const bold = require('./maps/bold-15x15.js');
+const lgBlue = require('./maps/blue-15x15.js');
+const medBlue = require('./maps/blue-10x10.js');
+const smBlue = require('./maps/blue-5x5.js');
+const landmass = require('./maps/landmass-15x15.js');
 const boldFifteen_by_fifteen = require('./maps/bold-15x15.js');
 
 module.exports = {

@@ -1,3 +1,4 @@
+// convert x,y from canvas to "grid coordinates"
 module.exports = (x, y, sectionWidth, sectionLength, tileWidth, tileLength, offsetX, offsetY) => {
     let baseX = (offsetX)*(tileWidth);
     let baseY = (offsetY)*(tileLength);

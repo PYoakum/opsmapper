@@ -76,6 +76,23 @@ module.exports = {
 
     })
 
+  },
+
+
+  getHTTPStatus: (req, res, key, procCmd, cmdRemainder) => {
+
+      let theUrl = url.parse(cmdRemainder);
+
+      res.json({
+        'color' 		: '#ffff66',
+        'msg' 			: theUrl,
+        'data' 			: '--------',
+        'specs' 		: {
+          'color' 		: '#692aff',
+          'hostname' 	: String(key)
+        }
+      })
+
   }
 
 }
